@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+    </head>
+    <body>
+    <div class="container">
+      <div class="columns">
+        <div class="hero hero-lg flex-centered p-centered">
+            <div class="panel">
+                <form method="GET" action="/keyword">
+                    <h3 class="panel-header">Search Trends</h3>
+                    <div class="panel-body">
+                        <div class="form-group">
+                          <label class="form-label" for="keyword">Keyword</label>
+                          <input class="form-input" type="text" name="kw" id="keyword" placeholder="Python">
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <input type="submit" class="btn btn-success btn-block" value="Go" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
